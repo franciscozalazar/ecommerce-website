@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+  <header>
+    <nav class="navbar bg-dark fixed-top">
+      <div class="container-fluid">
+          <a class="navbar-brand text-white" href="#">E-Commerce</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end bg-dark text-white" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+              <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+              <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                      <li class="nav-item">
+                          <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link text-white" href="#">Link</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Dropdown
+                          </a>
+                          <ul class="dropdown-menu bg-dark">
+                              <li><a class="dropdown-item text-white" href="#">Action</a></li>
+                              <li><a class="dropdown-item text-white" href="#">Another action</a></li>
+                              <li>
+                                  <hr class="dropdown-divider">
+                              </li>
+                              <li><a class="dropdown-item text-white" href="#">Something else here</a></li>
+                          </ul>
+                      </li>
+                  </ul>
+                  <form class="d-flex mt-3" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </nav>
+      </header>
+
+      <div class="container d-flex flex-wrap">
+        <div class="card" style="width: 18rem;">
+            <img src="img/images.jpeg" class="card-img-top" alt="...">
+            <div class="card-body card-pad">
+                <a class="Notebook" href="#">Notebook ProBook 15:</a><p class="precio">$420,000 ARS</p><p class="card-text">La Notebook ProBook 15 es la elección ideal para profesionales y estudiantes. Con un procesador Intel Core i7 de 10ª generación, 16 GB de RAM y un disco SSD de 512 GB, esta notebook garantiza un rendimiento superior. Su pantalla Full HD de 15.6 pulgadas y batería de larga duración.</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="img/shopping.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+                <a class="Celular"href="#">SmartPhone Xtreme: </a><p class="precio">$115,000 ARS</p><p class="card-text">Diseñado para los amantes de la tecnología, el SmartPhone Xtreme ofrece una experiencia inigualable con su pantalla OLED de 6.7 pulgadas, procesador octa-core de última generación y una batería de 5000 mAh para durar todo el día. Captura tus momentos con su cámara de 108 MP y disfruta de la rapidez y fluidez con su memoria RAM de 12 GB.</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="img/Tablet.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <a class="Celular" href="#">Tablet Infinity Pro:</a><p class="precio">$32,000 ARS</p><p class="card-text">La Tablet Infinity Pro es perfecta para trabajar y disfrutar del entretenimiento. Con una pantalla de 11 pulgadas y resolución 2K, procesador potente y 8 GB de RAM, esta tablet te permite realizar múltiples tareas sin esfuerzo. Su batería de larga duración y almacenamiento de 256 GB.</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="img/parlante.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+                <a class="parlante" href="#">SoundWave Max:</a><p class="precio">$280,000 ARS</p><p class="card-text">Equipados con tecnología Bluetooth 5.0, ofrecen una calidad de sonido excepcional y bajos profundos. Su diseño elegante y resistente al agua los hace ideales para cualquier ocasión.</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="img/reloj.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <a class="reloj" href="#">SmartWatch FitPro:</a><p class="precio">$180,000 ARS</p><p class="card-text">Mantente conectado y en forma con el SmartWatch FitPro. Este reloj inteligente cuenta con monitor de ritmo cardíaco, seguimiento del sueño y múltiples modos de ejercicio. Su pantalla AMOLED de 1.4 pulgadas y diseño elegante lo hacen perfecto para cualquier ocasión. Además, su batería de larga duración y resistencia al agua.</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="img/camara.jpeg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <a class="camara" href="#">Camera ProShot 500:</a>$57,000 ARS<p class="precio"></p><p class="card-text">Captura cada momento con una precisión increíble con la Camera ProShot 500. Esta cámara DSLR de 24.2 MP ofrece una calidad de imagen excepcional, incluso en condiciones de poca luz, gracias a su sensor de imagen avanzado. Con múltiples modos de disparo y una lente intercambiable.</p>
+            </div>
+        </div>
+    </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+  <footer> <p class="ultimo">@ 2024 tu E-Commerce Aprendé Programando</p></footer>
+
+</html>
